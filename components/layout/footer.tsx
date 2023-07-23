@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 import GitHubIcon from 'components/icons/github';
 import LogoIcon from 'components/icons/logo';
-import VercelIcon from 'components/icons/vercel';
 import { getMenu } from 'lib/shopify';
 import { Menu } from 'lib/shopify/types';
 
@@ -42,7 +41,7 @@ export default async function Footer() {
             </nav>
           ) : null}
           <div className="col-span-1 text-black dark:text-white lg:col-span-2">
-            <a aria-label="Github Repository" href="https://github.com/vercel/commerce">
+            <a aria-label="Github Repository" href="https://github.com/vucat12">
               <GitHubIcon className="h-6" />
             </a>
           </div>
@@ -60,7 +59,7 @@ export default async function Footer() {
               target="_blank"
               className="text-black dark:text-white"
             >
-              <VercelIcon className="ml-3 inline-block h-6" />
+              Hoodie Store
             </a>
           </div>
         </div>
